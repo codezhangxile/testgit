@@ -15,3 +15,9 @@ git reset --hard 哈希值   当前版本重新指向哪个版本
 git reflog    历史版本
 
 git rest --hard HEAD^  回退到上一个版本 可以100^
+
+git checkout -b dev 创建并切换到dev分支
+git checkout master  切换的master分支
+git branch   mumu     创建一个mumu的分支
+git branch 查看分支
+git  merge dev  把dev分支合并到 当前分支
